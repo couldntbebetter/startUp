@@ -40,7 +40,7 @@ function fn_egov_addView() {
    	document.listForm.submit();		
 }
 
-/* 글 목록 화면 function */
+/* 글 목록 화면 function 부악!*/
 function fn_egov_selectList() {
 	document.listForm.action = "<c:url value='/sample/egovSampleList.do'/>";
    	document.listForm.submit();
